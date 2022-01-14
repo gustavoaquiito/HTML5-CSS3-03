@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo na tela</title>
     <style>
         body {
             height: 100vh;
-            background: #333;
+            /* background: #333;
             background-image: url(img/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - background 
+                color > image > position > repeat > [size] 
+                > attachment
+            */
+
+            background: #333 url(img/wallpaper002.jpg) center center no-repeat  fixed;
             background-size: cover;
         }
 
@@ -19,7 +28,7 @@
             background-color: #fff;
             padding: 10px;           
             margin: 0px auto;
-            width: 400px;
+            max-width: 400px;
             border: 1px solid darkblue;
             border-radius: 5px;
         }
@@ -28,7 +37,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis repudiandae a laborum nesciunt ullam in, ipsum nulla cum inventore obcaecati ex quidem quisquam quam, ipsa quasi ducimus distinctio, unde et?</p>
     </main>
 </body>
 </html>
