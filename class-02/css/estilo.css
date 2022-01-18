@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root {
+    --cor0: #031501;
+    font-family: 'Passion One', cursive;
+    font-family: 'Sriracha', cursive;
+}
