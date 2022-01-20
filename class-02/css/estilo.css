@@ -14,6 +14,16 @@ a {
     text-decoration: none;
     color: white;
 }
+
+p {
+    font-family: var(--fonte-principal);
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 100px;
+}
+
+/* classes úteis */
+
 /* variáveis */
 :root {
     --cor0: #031501;
@@ -38,9 +48,96 @@ a {
 
 .paragrafos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     padding-bottom: 50px;
+    line-height: 16px;
 }
 
 .ator {
     font-weight: bold;
+}
+
+
+
+/* section */
+
+.container {
+    margin-top: 74px;
+    margin-left: 30px;
+}
+
+.poema {
+    padding-bottom: 50px;
+}
+
+
+
+/* section-2 */
+.section-2 {
+    background: url(/class-02/img/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+}
+
+.section-2 .container{
+    position: relative;
+}
+
+.section-2 .container .sub-c {
+    color: white;
+    background-color: #000F00;
+    padding: 10px 2px;
+    max-width: 600px;
+    top: 90px;
+    position: absolute;
+}
+
+/* section-4 */
+
+.section-4 {
+    background: url(/class-02/img/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+}
+
+
+.section-4 .container{
+    position: relative;
+}
+
+.section-4 .container .sub-c {
+    color: white;
+    background-color: #00000081;
+    padding: 10px 5px;
+    max-width: 700px;
+    top: 90px;
+    position: absolute;
+}
+
+/* footer */ 
+
+.footer {
+    margin-top: 74px;
+    background-color: black;
+    color: white;
+}
+
+.footer-p {
+    line-height: 16px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-p > a {
+    font-weight: bold;
+}
+
+.footer-p > a:hover {
+    text-decoration: underline;
 }
