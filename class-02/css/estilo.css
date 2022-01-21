@@ -18,11 +18,9 @@ a {
 p {
     font-family: var(--fonte-principal);
     font-weight: normal;
-    font-size: 51px;
-    line-height: 100px;
+    font-size: 5.1rem;
+    line-height: 10.0rem;
 }
-
-/* classes úteis */
 
 /* variáveis */
 :root {
@@ -31,6 +29,13 @@ p {
     --fonte-principal: 'Sriracha', cursive;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
 /* header */
 
 .header {
@@ -43,14 +48,14 @@ p {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte-destaque);
-    font-size: 10vw;
+    font-size: 10rem;
 }
 
 .paragrafos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     padding-bottom: 50px;
-    line-height: 16px;
+    line-height: 1.6rem;
 }
 
 .ator {
@@ -83,6 +88,7 @@ p {
 
 .section-2 .container{
     position: relative;
+    margin-right: 30px;
 }
 
 .section-2 .container .sub-c {
@@ -107,6 +113,7 @@ p {
 
 .section-4 .container{
     position: relative;
+    margin-right: 30px;
 }
 
 .section-4 .container .sub-c {
@@ -127,8 +134,8 @@ p {
 }
 
 .footer-p {
-    line-height: 16px;
-    font-size: 16px;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
     padding: 10px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -140,4 +147,21 @@ p {
 
 .footer-p > a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 666px) {
+    html {
+        font-size: 42.5%;
+    }    
+}
+
+@media (max-width: 462px) {
+    html {
+        font-size: 32.5%;
+    }    
+
+    .section-2 .container .sub-c {
+        max-width: 500px;
+    }
+    
 }
